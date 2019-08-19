@@ -1,0 +1,36 @@
+<div class="preview-block">
+  <div class="row">
+    <div class="col-12">
+        <div class="form-group row">
+          <div class="col-sm-auto">
+            <img [src]="data?.person.img" [alt]="data?.person.alt - img" />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-sm col-form-label">Name</label>
+          <div class="col-sm-auto">
+            <label class="col-sm-auto">{{ data?.person.name }}</label>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-sm col-form-label">Status</label>
+          <div class="col-sm-auto">
+              <div class="form-group row">
+                <label class="col-sm-auto">{{ data?.person.health }}</label>
+                <img src="./assets/images/health.svg" />
+              </div>
+              <div class="form-group row">
+                <label class="col-sm-auto">{{ data?.person.armor }}</label>
+                <img src="./assets/images/armor.svg" />
+              </div>
+              <div class="form-group row">
+                <label class="col-sm-auto">{{ data?.person.attack }}</label>
+                <img src="./assets/images/attack.svg" />
+              </div>
+            
+          </div>
+        </div>
+      
+    </div>
+  </div>
+</div>

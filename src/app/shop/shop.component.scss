@@ -1,0 +1,22 @@
+.shop-block {
+  background-color: #f9e88e;
+  border-radius: 4px;
+  width: 370px;
+  padding: 30px;
+  height: 551px;
+  .shop-title {
+    text-align: center;
+  }
+  .shop-select {
+    width: 190px;
+    height: 36px;
+    border: 1px solid #727272;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(/assets/images/arrow-select.svg) no-repeat right 8px center #ffffff;
+  }
+}
